@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace TodoApp.Models
 {
-    public class RefreshTokens
+    public class RefreshToken
     {
         public int Id { get; set; }
         public string UserId { get; set; }
